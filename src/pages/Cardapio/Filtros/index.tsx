@@ -18,7 +18,7 @@ const Filtros: React.FC<Props> = ({ filtro, setFiltro }: Props) => {
   return (
     <div className={styles.filtros}>
       {filtros.map((opcao) => (
-        <button
+        <button 
           className={classNames({
             [styles.filtros__filtro]: true,
             [styles["filtros__filtro--ativo"]]: opcao.id === filtro,

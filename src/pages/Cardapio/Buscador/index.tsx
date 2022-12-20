@@ -16,6 +16,7 @@ const Buscador: React.FC<Props> = ({ busca, setBusca }: Props) => {
         onChange={(event) => {
           setBusca(event.target.value);
         }}
+        placeholder="Buscar"
       />
       <CgSearch size={20} color="#4c4d5e" />
     </div>
